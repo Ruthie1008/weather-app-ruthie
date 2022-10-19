@@ -1,0 +1,31 @@
+.card-title {
+  background: rgb(240, 213, 94);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 40px;
+  border: 3px solid;
+}
+.col-lg {
+  margin: 10 auto;
+  padding: 50px;
+}
+.col-sm {
+  border: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  background: rgba(180, 156, 48, 0.2);
+  line-height: 40px;
+  margin: 2px;
+}
+.temp {
+  background: rgb(240, 213, 94);
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  border: 3px solid;
+  padding: 15px;
+}

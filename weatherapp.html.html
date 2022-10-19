@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  </head>
+  <body>
+    <div class="container">
+        <div class="card border-primary mb-3" style="max-width: 30rem;">
+  <div class="card-header">
+   <form>
+    <input id="geolocation" placeholder="Search City"</input><input class="button" type="submit" id="submit">
+  </input>
+</form>
+</div>
+
+  <div class="card-body text-primary">
+    <div class="temperature row">
+    <h5 class="card-title col-lg">75° <br>Sunny</h5>
+    <div class="location-date col-lg">
+    <h1 id="weather"></h1>
+    <h5 class="location" id="location">Columbia, MO</h5>
+    <h6 class="date-time" id="date-time"><li>Thursday, 10:00 am</li></h6>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm">
+        <h7><span class="temp">73°</span> Friday <br/>
+            ☀️</h7></div>
+    <div class="col-sm">
+    <h7><span class="temp">65°</span> Saturday ⛅</h7>
+</div>
+    <div class="col-sm">
+    <h7><span class="temp">69°</span> Sunday 🌤️</h7>
+</div>
+
+<div class="col-sm">
+    <h7><span class="temp">75°</span> Monday ☀️</h7></div>
+<div class="col-sm">
+    <h7><span class="temp">78°</span> Tuesday ☀️</h7></div>
+  </div>
+</div></div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
+
